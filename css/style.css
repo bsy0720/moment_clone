@@ -1,0 +1,119 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.container {
+  margin-top: 200px;
+}
+
+#clock {
+  font-family: 'Rubik Bubbles', 'cursive';
+  font-size: 100px;
+  color: rgb(51, 51, 51);
+}
+
+form {
+  margin: 0 auto 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#login-form input {
+  outline: 0;
+  background-color: transparent;
+  border: 2px solid rgb(51, 51, 51);
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 18px;
+}
+
+#box {
+  width: 316px;
+  margin-left: 8px;
+}
+
+#greeting {
+  color: rgb(51, 51, 51);
+}
+
+#submit {
+  cursor: pointer;
+  width: 70px;
+}
+
+#todo-form input {
+  width: 400px;
+  outline: 0;
+  background-color: transparent;
+  border: 2px solid rgb(51, 51, 51);
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 18px;
+}
+
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: rgb(51, 51, 51);
+  list-style: none;
+  width: 392px;
+}
+
+#todo-list li {
+  align-items: center;
+  margin: 6px auto;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+}
+
+#todo-list button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+#quote {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(51, 51, 51);
+}
+
+#quote>p {
+  font-size: 22px;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+}
+
+#weather {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: rgb(51, 51, 51);
+}
+
+#weather>span {
+  font-size: 18px;
+  font-weight: 600;
+}
